@@ -3,11 +3,18 @@
 
 ## Overview of the Analysis
 
-In this excersize, supervised machine learning was used to create a model to determine the credit risk of the lending data provided. The "target" or "y value" was the `loan_status` indicating if a loan was at risk. While the feature set included additional data points collected such as `loan_size`
+In this excersize, Python library scikit-learn was used for supervised machine learning to create a model to determine the credit risk of the lending data provided. 
 
-* ETe purpose of the analysis is to predict the 
-* Explain what financial information the data was on, and what you needed to predict.
-* Provide basic information about the variables you were trying to predict (e.g., `value_counts`).
+The "target/dependant variable" or "y value" was the `loan_status` indicating if a loan was at risk. While the feature set (Independent Variable) included additional data points collected such as `loan_size`
+
+* The purpose of the analysis is to predict the risk of a loan based on the information gathered about the clients. The model will be used to assess wether a loan applicant is creditworthy, or a credit-risk
+
+The financial information was based on loan_size,interest_rate,borrower_income,debt_to_income,num_of_accounts,derogatory_marks,total_debt to then predict the loan_status.
+
+As with any Maachine Laerning proces, the model needs to be trained, tested and split.
+Model , Fit, Predict
+
+
 * Describe the stages of the machine learning process you went through as part of this analysis.
 * Briefly touch on any methods you used (e.g., `LogisticRegression`, or any resampling method).
 
